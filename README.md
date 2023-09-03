@@ -1,14 +1,24 @@
-# CSS-Framework
-<p><strong>Simple and easy css framwork.</strong></p>
+## Simple and Easy CSS Framework
 
-<p><b>reset.css</b> is reset from Eric Meyer</p>
-<p><b>base.css</b> is basic style file.It is not recommended but if required then can change here, the basic color, font, width and spacing.</p>
-<p>For default wapper class is <strong>container</strong> which is 1200px max width and 100% width and if you require 100% full width then use class <strong>section</strong>. If it is require to change full website width then you may change it here.</p>
-<p>There is a <strong>12 column</strong> grid system and also a two type grid system. One is<strong> 4% left margin except 1st column</strong> and another one <strong>0% margin</strong> 12 column.</p>
-<p>For 4% grid class is <strong>columns</strong> exmple <strong>two.columns</strong> , <strong>ten.columns</strong> ...</p>
-<p>For 0% grid class is <strong>nmcolumns</strong> exmple <strong>six.nmcolumns</strong></p>
-<p>There is separate class for float left and right. “<strong>fr</strong>” for float right and “<strong>fl</strong>” for float left</p>
-<p>For zebra table styling use div class<strong> table-content</strong> then put table code inside div.</p>
-<p>For it requier clear the child elements we can use <strong>clearfix</strong> or <strong>cls</strong> class</p>
-<p>&nbsp;</p>
-<p>Please check <strong>exmple.html</strong> for demo.</p>
+This CSS framework aims to provide a straightforward and user-friendly approach to styling your web projects. It consists of several key components:
+
+1. **reset.css**: This file is based on Eric Meyer's reset.css and helps normalize browser styles.
+
+2. **base.css**: While not recommended for extensive modifications, this file offers basic styling options for adjusting colors, fonts, widths, and spacing as needed.
+
+3. **Container and Section Classes**: The default wrapper class is `container`, which enforces a maximum width of 1200px and 100% width for your content. If you require full-width sections, use the `section` class. You can customize the website width by making changes here.
+
+4. **Grid System**: We provide a flexible 12-column grid system and two types of grids. The first has a 4% left margin, excluding the 1st column. The second is a 0% margin 12-column grid.
+
+   - For the 4% grid, use classes like `two.columns`, `ten.columns`, etc.
+   - For the 0% grid, use classes like `six.nmcolumns`, etc.
+
+5. **Float Classes**: We offer separate classes for floating elements left (`fl`) and right (`fr`).
+
+6. **Zebra Table Styling**: Apply the `table-content` class to a `div` and then insert your table code inside the `div` to enable zebra table styling.
+
+7. **Clearing Child Elements**: To clear child elements, you can use either the `clearfix` class or the `cls` class.
+
+We hope this framework simplifies your CSS work and enhances your web development experience.
+
+Feel free to provide feedback or contribute to its improvement!
